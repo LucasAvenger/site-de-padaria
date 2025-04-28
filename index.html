@@ -10,8 +10,10 @@
     - primary meta tags
   -->
     <title>Padaria site</title>
-    <meta name="title" content="Crafti - We Make Top Quality Handmade Products">
-    <meta name="description" content="This is a Handmade Products html template made by codewithsadee">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"
+        integrity="sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
     <!-- 
     - favicon
@@ -36,7 +38,28 @@
   -->
     <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
     <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+    <style>
+        .whatsapp-link {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #fff;
+            text-align: center;
+            border-radius: 50px;
+            text-align: 30px;
+            box-shadow: 1px 1px 2px #888;
+            z-index: 1000;
+        }
 
+        .fa-whatsapp {
+            margin-top: 11px;
+            font-size: 40px;
+
+        }
+    </style>
 
 
 </head>
@@ -46,11 +69,13 @@
     <!-- 
     - #HEADER
   -->
-    <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5519984318871" target="_blank">
-        <i class="fa fa-whatsapp"></i>
-    </a>
+
 
     <header class="header" data-header>
+        <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5519984318871" target="_blank">
+            <i class="fa fa-whatsapp"></i>
+        </a>
+
         <div class="container">
 
             <a href="#" class="logo">Lucas</a>
